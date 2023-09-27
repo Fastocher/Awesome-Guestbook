@@ -10,7 +10,6 @@ const Managment = () => {
     const [checked, setChecked] = useState(false);
     const [error, setError] = useState(false);
 
-    console.log(checked);
     const handle = (event: React.ChangeEvent<HTMLInputElement>) => {
         setChecked(event.target.checked);
     };

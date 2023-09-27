@@ -49,7 +49,6 @@ const MainForm = () => {
     };
 
     const depChangeHandler = (event: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>) => {
-        console.log(event.target.value);
         setDepartment(event.target.value as string);
     };
 

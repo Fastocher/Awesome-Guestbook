@@ -34,7 +34,6 @@ const tableSlice = createSlice({
         },
         updateSelectedVisitors(state, action: PayloadAction<readonly string[]>) {
             const selected = action.payload;
-            console.log(selected);
 
             state.selected = selected.slice();
         },
