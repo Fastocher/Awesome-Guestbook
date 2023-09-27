@@ -90,9 +90,13 @@ const CustomTable = () => {
                         }}
                     />
                 </TableCell>
-                <TableCell>Visitor</TableCell>
-                <TableCell align="left">Email</TableCell>
-                <TableCell align="right">Department</TableCell>
+                <TableCell sx={{ width: "33%" }}>Visitor</TableCell>
+                <TableCell align="left" sx={{ width: "33%" }}>
+                    Email
+                </TableCell>
+                <TableCell align="right" sx={{ width: "33%" }}>
+                    Department
+                </TableCell>
             </TableRow>
         </TableHead>
     );
