@@ -15,7 +15,7 @@ function App() {
 
     useEffect(() => {
         dispatch(fetchTableData());
-    }, []);
+    }, [dispatch]);
 
     useEffect(() => {
         if (isInit) {
@@ -26,7 +26,7 @@ function App() {
         if (table.changed) {
             dispatch(sendTableData(table.visitors));
         }
-    }, [table]);
+    }, [dispatch, table]);
 
     return (
         <>
